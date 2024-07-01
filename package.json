@@ -1,0 +1,146 @@
+{
+  "name": "vue-antd-water",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "pre": "cnpm install || yarn --registry https://registry.npm.taobao.org || npm install --registry https://registry.npm.taobao.org ",
+    "start": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.11.4",
+    "@jeecg/antd-online-mini": "2.2.12",
+    "@tinymce/tinymce-vue": "^2.1.0",
+    "@toast-ui/editor": "^2.5.3",
+    "ace-builds": "^1.4.12",
+    "ant-design-vue": "^1.6.3",
+    "area-data": "^5.0.6",
+    "axios": "^0.18.0",
+    "babel-plugin-import": "^1.13.0",
+    "babel-polyfill": "^6.26.0",
+    "clipboard": "^2.0.4",
+    "codemirror": "^5.46.0",
+    "core-js": "^2.6.5",
+    "cron-parser": "^4.0.0",
+    "dayjs": "^1.8.0",
+    "default-passive-events": "2.0.0",
+    "echarts": "^5.4.0",
+    "element-ui": "^2.15.8",
+    "enquire.js": "^2.1.6",
+    "js-base64": "^3.7.2",
+    "js-cookie": "^2.2.1",
+    "jsoneditor": "^9.0.0",
+    "lib-flexible": "^0.3.2",
+    "lodash.get": "^4.4.2",
+    "lodash.pick": "^4.4.0",
+    "md5": "^2.2.1",
+    "mockjs": "^1.1.0",
+    "moment": "^2.24.0",
+    "nprogress": "^0.2.0",
+    "qs": "^6.11.0",
+    "save": "^2.9.0",
+    "tinymce": "^5.3.2",
+    "uuid": "^8.3.2",
+    "viser-vue": "^2.4.8",
+    "vue": "^2.6.10",
+    "vue-area-linkage": "^5.1.0",
+    "vue-codemirror-lite": "^1.0.4",
+    "vue-cropper": "^0.5.4",
+    "vue-i18n": "^8.7.0",
+    "vue-loader": "^15.7.0",
+    "vue-ls": "^3.2.0",
+    "vue-photo-preview": "^1.1.3",
+    "vue-print-nb-jeecg": "^1.0.9",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.1",
+    "vue-seamless-scroll": "^1.1.23",
+    "vue-splitpane": "^1.0.4",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.1.0",
+    "workflow-bpmn-modeler": "^0.2.8"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "@types/js-cookie": "^3.0.3",
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "ant-design-vue": "^1.5.1",
+    "babel-eslint": "7.2.3",
+    "compression-webpack-plugin": "^3.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "image-webpack-loader": "^7.0.1",
+    "install": "^0.13.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "node-sass": "^6.0.1",
+    "npm": "^7.7.6",
+    "prettier": "^1.18.2",
+    "px2rem-loader": "^0.1.9",
+    "sass-loader": "^10.2.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.46.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/strongly-recommended",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "generator-star-spacing": "off",
+      "no-mixed-operators": 0,
+      "vue/max-attributes-per-line": [
+        2,
+        {
+          "singleline": 5,
+          "multiline": {
+            "max": 1,
+            "allowFirstLine": false
+          }
+        }
+      ],
+      "vue/attribute-hyphenation": 0,
+      "vue/html-self-closing": 0,
+      "vue/component-name-in-template-casing": 0,
+      "vue/html-closing-bracket-spacing": 0,
+      "vue/singleline-html-element-content-newline": 0,
+      "vue/no-unused-components": 0,
+      "vue/multiline-html-element-content-newline": 0,
+      "vue/no-use-v-if-with-v-for": 0,
+      "vue/html-closing-bracket-newline": 0,
+      "vue/no-parsing-error": 0,
+      "no-tabs": 0,
+      "indent": [
+        "off",
+        2
+      ],
+      "no-console": 0,
+      "space-before-function-paren": 0
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
